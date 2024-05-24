@@ -109,7 +109,7 @@ importers:
         version: 1.43.1
       '@testing-library/react':
         specifier: ^14.3.1
-        version: 14.3.1(react-dom@18.2.0)(react@18.2.0)
+        version: 14.3.1(react-dom@18.3.1)(react@18.3.1)
       '@types/babel__core':
         specifier: ^7.20.5
         version: 7.20.5
@@ -5185,7 +5185,7 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/react@14.3.1(react-dom@18.2.0)(react@18.2.0):
+  /@testing-library/react@14.3.1(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-H99XjUhWQw0lTgyMN05W3xQG1Nh4lq574D8keFf1dDoNTJgp66VbJozRaczoF+wsiaPJNt/TcnfpLGufGxSrZQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -14747,7 +14747,6 @@ packages:
   /read-package-json@6.0.4:
     resolution: {integrity: sha512-AEtWXYfopBj2z5N5PbkAOeNHRPUg5q+Nen7QLxV8M2zJq1ym6/lCz3fYNTCXe19puu2d06jfHhrP7v/S2PtMMw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
-    deprecated: This package is no longer supported. Please use @npmcli/package-json instead.
     dependencies:
       glob: 10.3.10
       json-parse-even-better-errors: 3.0.1
